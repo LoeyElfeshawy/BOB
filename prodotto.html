@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tutorial</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <!-- CSS -->
+    <link href="prodotto.css" rel="stylesheet">
+    <meta name="robots" content="noindex,follow" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <nav class="nav">
+        <ul class="nav-links">
+          <i class="uil uil-bars navOpenBtn"></i>
+          <a href="./index.html" class="logo"><img src="./logo.png" height="100" width="100"></a>
+          <i class="uil uil-times navCloseBtn"></i>
+          <li><a href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">Home</a></li>
+          <li><a href="#">Prodotti</a></li>
+          <li><a href="#">Contatti</a></li>
+        </ul>
+  
+        <ul class="nav-links">
+          <input type="text" style="background: none; color: #fff; max-width: 75%; border: 2px solid #0777ff; border-radius: 5px;padding: 10px 25px;box-shadow: 2px 2px 15px #0777ff inset;" placeholder="Cerca..." />
+          <a href="login/login.html"><i class="fa fa-user" style="color:#fff;"></i></a>
+          <a href="#"><i class="fa fa-shopping-cart" style="color: #fff;"></i></a>
+        </ul>  
+      </nav>
+    <main class="container">
+
+      <!-- Left Column / Headphones Image -->
+      <div class="left-column">
+        <img data-image="black" src="Felpe/felpa nera (trapstar).png" alt="">
+        <img data-image="blue" src="Felpe/felpa blu (trapstar).png" alt="">
+        <img data-image="red" class="active" src="Felpe/felpa rossa (trapstar).png" alt="">
+      </div>
+
+
+      <!-- Right Column -->
+      <div class="right-column">
+
+        <!-- Product Description -->
+        <div class="product-description">
+          <span>Felpe</span>
+          <h1>FELPA DAVINCI</h1>
+          <p>La miglior felpa dell'istituto mai creata!!!</p>
+        </div>
+
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+
+          <!-- Product Color -->
+          <div class="product-color">
+            <span>Color</span>
+
+            <div class="color-choose">
+              <div>
+                <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+                <label for="red"><span></span></label>
+              </div>
+              <div>
+                <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+                <label for="blue"><span></span></label>
+              </div>
+              <div>
+                <input data-image="black" type="radio" id="black" name="color" value="black">
+                <label for="black"><span></span></label>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Cable Configuration -->
+          <div class="cable-config">
+            <span>Cable configuration</span>
+
+            <div class="cable-choose">
+              <button>S</button>
+              <button>M</button>
+              <button>L</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Pricing -->
+        <div class="product-price">
+          <span>148$</span>
+          <a href="#" class="cart-btn">Add to cart</a>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>company</h4>
+              <ul>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">privacy policy</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">returns</a></li>
+                <li><a href="#">order status</a></li>
+                <li><a href="#">payment options</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>online shop</h4>
+              <ul>
+                <li><a href="#">hat</a></li>
+                <li><a href="#">hoodie</a></li>
+                <li><a href="#">shoes</a></li>
+                <li><a href="#">t-shirt</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+     </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="prodotto.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+<html>
+<head>
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="login_style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>  
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'> 
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+ <script src="script.js" defer></script>
+</head>
+
+<body class="body">
+    <nav class="nav">
+      <ul class="nav-links">
+        <i class="uil uil-bars navOpenBtn"></i>
+        <a href="./index.html" class="logo"><img src="./logo.png" height="100" width="100"></a>
+        <i class="uil uil-times navCloseBtn"></i>
+        <li><a href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">Home</a></li>
+        <li><a href="#">Prodotti</a></li>
+        <li><a href="#">Contatti</a></li>
+      </ul>
+
+      <ul class="nav-links">
+        <input type="text" style="background: none; color: #fff; max-width: 75%; border: 2px solid #0777ff; border-radius: 5px;padding: 10px 25px;box-shadow: 2px 2px 15px #0777ff inset;" placeholder="Cerca..." />
+        <a href="login/login.html"><i class="fa fa-user" style="color:#fff;"></i></a>
+        <a href="#"><i class="fa fa-shopping-cart" style="color: #fff;"></i></a>
+      </ul>  
+    </nav>
+    <div class="background">
+        <div class="container">
+          <div class="screen">
+            <div class="screen-header">
+              <div class="screen-header-left">
+                <div class="screen-header-button close"></div>
+                <div class="screen-header-button maximize"></div>
+                <div class="screen-header-button minimize"></div>
+              </div>
+              <div class="screen-header-right">
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+              </div>
+            </div>
+            <div class="screen-body">
+              <div class="screen-body-item left">
+                <div class="app-title">
+                  <span>CONTATTACI</span>
+                </div>
+                <div class="app-contact">CONTACT INFO : +39 351 543 6616</div>
+              </div>
+              <div class="screen-body-item">
+                <div class="app-form">
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="nome">
+                  </div>
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="email">
+                  </div>
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="numero di telefono">
+                  </div>
+                  <div class="app-form-group message">
+                    <input class="app-form-control" placeholder="messaggio">
+                  </div>
+                  <div class="app-form-group buttons">
+                    <button class="app-form-button">CANCELLA</button>
+                    <button class="app-form-button">INVIA</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <style>
+        *, *:before, *:after {
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            }
+
+            body {
+            font-size: 12px;
+            }
+
+            body, button, input {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            letter-spacing: 1.4px;
+            }
+
+            .background {
+            display: flex;
+            min-height: 100vh;
+            }
+
+            .container {
+            flex: 0 1 700px;
+            margin: auto;
+            padding: 10px;
+            }
+
+            .screen {
+            position: relative;
+            background: #3e3e3e;
+            border-radius: 15px;
+            }
+
+            .screen:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 20px;
+            right: 20px;
+            bottom: 0;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+            z-index: -1;
+            }
+
+            .screen-header {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            background: #4d4d4f;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            }
+
+            .screen-header-left {
+            margin-right: auto;
+            }
+
+            .screen-header-button {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            margin-right: 3px;
+            border-radius: 8px;
+            background: white;
+            }
+
+            .screen-header-button.close {
+            background: #ed1c6f;
+            }
+
+            .screen-header-button.maximize {
+            background: #e8e925;
+            }
+
+            .screen-header-button.minimize {
+            background: #74c54f;
+            }
+
+            .screen-header-right {
+            display: flex;
+            }
+
+            .screen-header-ellipsis {
+            width: 3px;
+            height: 3px;
+            margin-left: 2px;
+            border-radius: 8px;
+            background: #999;
+            }
+
+            .screen-body {
+            display: flex;
+            }
+
+            .screen-body-item {
+            flex: 1;
+            padding: 50px;
+            }
+
+            .screen-body-item.left {
+            display: flex;
+            flex-direction: column;
+            }
+
+            .app-title {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            color: #2696E9;
+            font-size: 26px;
+            }
+
+            .app-title:after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            width: 25px;
+            height: 4px;
+            background: #2696E9;
+            }
+
+            .app-contact {
+            margin-top: auto;
+            font-size: 8px;
+            color: #888;
+            }
+
+            .app-form-group {
+            margin-bottom: 15px;
+            }
+
+            .app-form-group.message {
+            margin-top: 40px;
+            }
+
+            .app-form-group.buttons {
+            margin-bottom: 0;
+            text-align: right;
+            }
+
+            .app-form-control {
+            width: 100%;
+            padding: 10px 0;
+            background: none;
+            border: none;
+            border-bottom: 1px solid #666;
+            color: #ddd;
+            font-size: 14px;
+            text-transform: uppercase;
+            outline: none;
+            transition: border-color .2s;
+            }
+
+            .app-form-control::placeholder {
+            color: #666;
+            }
+
+            .app-form-control:focus {
+            border-bottom-color: #ddd;
+            }
+
+            .app-form-button {
+            background: none;
+            border: none;
+            color: #2696E9;
+            font-size: 14px;
+            cursor: pointer;
+            outline: none;
+            }
+
+            .app-form-button::after {
+            content: '';
+            width: 0px;
+            height: 1px;
+            display: block;
+            background: dodgerblue;
+            transition: 300ms;
+            }
+
+            .dribbble {
+            width: 20px;
+            height: 20px;
+            margin: 0 5px;
+            }
+
+            @media screen and (max-width: 520px) {
+            .screen-body {
+                flex-direction: column;
+            }
+
+            .screen-body-item.left {
+                margin-bottom: 30px;
+            }
+
+            .app-title {
+                flex-direction: row;
+            }
+
+            .app-title span {
+                margin-right: 12px;
+            }
+
+            .app-title:after {
+                display: none;
+            }
+            }
+
+            @media screen and (max-width: 600px) {
+            .screen-body {
+                padding: 40px;
+            }
+
+            .screen-body-item {
+                padding: 0;
+            }
+            }
+
+    </style>
+      
+</body>
+</html>
+

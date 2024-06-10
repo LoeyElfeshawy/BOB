@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <!--Felpe-->
+    <product>
+        <id>1</id>
+        <name>Felpa Blu</name>
+        <price>19.90</price>
+        <image>immagini prodotti/Felpe/felpa blu (trapstar).png</image>
+    </product>
+    <product>
+        <id>2</id>
+        <name>Felpa Grigia</name>
+        <price>29.90</price>
+        <image>immagini prodotti/Felpe/felpa grigia (trapstar).png</image>
+    </product>
+    <product>
+        <id>1</id>
+        <name>Felpa Rossa</name>
+        <price>19.90</price>
+        <image>immagini prodotti/Felpe/felpa rossa (trapstar).png</image>
+    </product>
+    <product>
+        <id>2</id>
+        <name>Felpa Nera</name>
+        <price>29.90</price>
+        <image>immagini prodotti/Felpe/felpa nera (trapstar).png</image>
+    </product>
+    <!--Pantaloni-->
+    <product>
+        <id>1</id>
+        <name>Pantaloni Azzurri</name>
+        <price>19.90</price>
+        <image>immagini prodotti/Pantaloni/pantaloni azzurri (trapstar).png</image>
+    </product>
+    <product>
+        <id>2</id>
+        <name>Pantaloni Rossi</name>
+        <price>29.90</price>
+        <image>immagini prodotti/Pantaloni/pantaloni rossi (trapstar).png</image>
+    </product>
+    <product>
+        <id>1</id>
+        <name>Pantaloni Verdi</name>
+        <price>19.90</price>
+        <image>immagini prodotti/Pantaloni/pantaloni verdi (trapstar).png</image>
+    </product>
+    <product>
+        <id>2</id>
+        <name>Pantaloni Viola</name>
+        <price>29.90</price>
+        <image>immagini prodotti/Pantaloni/pantaloni viola (trapstar).png</image>
+    </product>
+    <!--Magliette-->
+    <product>
+        <id>1</id>
+        <name>Maglietta Blu</name>
+        <price>19.90</price>
+        <image>immagini prodotti/Magliette/blu.png</image>
+    </product>
+    <product>
+        <id>2</id>
+        <name>Maglietta Grigia</name>
+        <price>29.90</price>
+        <image>immagini prodotti/Magliette/grigio.png</image>
+    </product>
+    <product>
+        <id>1</id>
+        <name>Maglietta Nera</name>
+        <price>19.90</price>
+        <image>immagini prodotti/Magliette/nera.png</image>
+    </product>
+    <product>
+        <id>2</id>
+        <name>Maglietta Rossa</name>
+        <price>29.90</price>
+        <image>immagini prodotti/Magliette/rosso.png</image>
+        <page>prodotto.html</page>
+    </product>
+
+    
+</products>
+

@@ -1,0 +1,101 @@
+<div class="contenitore">
+    <video muted autoplay loop class="videofullscreen">
+      <source src="Leonardo.mp4" type="video/mp4">
+    </video>
+    <a href='index.html'><button>Benvenuto</button></a>
+    <h2 class="scritta">Sito presto disponibile</h2> 
+</div>
+  
+  <style> /* CSS */
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .scritta{
+    font-family: 'Open Sans', sans-serif;
+    color:rgb(255, 255, 255)
+  }
+  .contenitore {
+    height: 100%;
+  }
+  
+  .videofullscreen {
+    position: absolute;
+    overflow: hidden;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    z-index: -100;
+  }
+  
+  .titolo {
+    position: absolute;
+    color: #FFFFFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid;
+    border-radius: 25px;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-family: 'Open Sans', serif;
+    font-size: 90px;
+  }
+  
+  /* CSS del pulsante */
+  button {
+    width: 165px;
+    height: 62px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 1rem;
+    border: none;
+    position: absolute;
+    background: #100720;
+    transition: 0.1s;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  button::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(26, 66, 226) 17.8%, rgba(2, 245, 255, 1) 100.2%);
+    filter: blur(15px);
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  button:active {
+    transform: scale(0.9) rotate(3deg);
+    background: radial-gradient(circle farthest-corner at 10% 20%, rgb(26, 66, 226) 17.8%, rgba(2, 245, 255, 1) 100.2%);
+    transition: 0.5s;
+  }
+  
+  /* Regole di media query per renderlo responsive */
+  @media (max-width: 768px) {
+    button {
+      width: 120px;
+      height: 45px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    button {
+      width: 100px;
+      height: 38px;
+      font-size: 12px;
+    }
+  }
+  </style>
+  
