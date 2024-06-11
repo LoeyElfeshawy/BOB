@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bar with Search Box</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+   <script src="script.js" defer></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--CSS boh-->
+    <link rel="stylesheet" href="css/styleboh.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  </head>
+  <body>
+    <nav class="nav">
+      <ul class="nav-links">
+        <i class="uil uil-bars navOpenBtn"></i>
+        <a href="index.html" class="logo"><img src="logo.png" height="100" width="100"></a>
+        <i class="uil uil-times navCloseBtn"></i>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="prodotti/prodotti.html">Prodotti</a></li>
+        <li><a href="contatti.html">Contatti</a></li>
+      </ul>
+
+      <ul class="nav-links">
+        <input type="text" style="background: none; color: #fff; max-width: 75%; border: 2px solid #0777ff; border-radius: 5px;padding: 10px 25px;box-shadow: 2px 2px 15px #0777ff inset;" placeholder="Cerca..." />
+        <a href="login/login.html"><i class="fa fa-user" style="color:#fff;"></i></a>
+        <a href="#"><i class="fa fa-shopping-cart" style="color: #fff;"></i></a>
+      </ul>
+    </nav>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000000;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px;
+            gap: 20px;
+        }
+        .slider-container, .content-container {
+            flex: 1 1 45%;
+            min-width: 300px;
+        }
+        .content-container {
+            padding: 20px;
+            background-color: #333;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: #fff;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #1e1e1e, #444);
+        }
+        .content-container h2 {
+            margin-bottom: 15px;
+            font-size: 24px;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .content-container p {
+            line-height: 1.8;
+            font-size: 16px;
+            color: #ddd;
+            text-align: justify;
+            position: relative;
+            z-index: 1;
+            margin: 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.5);
+            font-family: 'Georgia', serif;
+        }
+        .content-container p::first-letter {
+            font-size: 3em;
+            color: dodgerblue;
+            float: left;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+                align-items: center;
+            }
+            .slider-container, .content-container {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+
+    <div class="main-content">
+        <video muted autoplay loop class="videofullscreen" height="70%" width="50%">
+            <source src="Leonardo.mp4" type="video/mp4">
+        </video>
+        <div class="content-container">
+            <h2>Welcome to Our Shop</h2>
+            <p>
+                <span>Welcome to our online store, where fashion meets functionality! We are delighted to present our exclusive range of school attire that is not only stylish but also crafted to provide the utmost comfort.</span> 
+                <span>Our collection includes everything from chic school sweaters to trendy pants and t-shirts that adhere to the highest quality standards.</span> 
+                <span>As you browse through our offerings, you'll discover that each piece is a blend of contemporary style and practicality, designed to meet the dynamic needs of today's students.</span>
+                <br><br>
+                <span>At our store, we believe that school uniforms should be more than just a dress code requirement.</span> 
+                <span>They should reflect individuality and foster a sense of pride and unity among students.</span> 
+                <span>That's why we've meticulously selected each item in our collection to ensure that it caters to a variety of tastes and preferences.</span> 
+                <span>From classic cuts to modern fits, our uniforms are available in a range of sizes and styles, ensuring that every student can find the perfect outfit that complements their personality.</span>   
+            </p>
+        </div>
+    </div>
+    
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="aboutus.html">about us</a></li>
+              <li><a href="#">privacy policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">returns</a></li>
+              <li><a href="#">order status</a></li>
+              <li><a href="#">payment options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>online shop</h4>
+            <ul>
+              <li><a href="#">felpe</a></li>
+              <li><a href="#">pantaloni</a></li>
+              <li><a href="#">t-shirt</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+  </body>
+</html>
