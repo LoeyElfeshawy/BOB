@@ -14,7 +14,7 @@
 
 body {
   font-family: "Quicksand", sans-serif;
-  background-color: rgb(255, 0, 0);
+  background-color: black;
 }
 
 /* Utility stylings */
@@ -66,10 +66,13 @@ img {
 }
 
 .product-content {
-  background: var(--gray);
+  background-color: #24262b;
   padding: 3rem 0.5rem 2rem 0.5rem;
   cursor: pointer;
   border-radius: 1rem 1rem 0 0;
+  border: solid #0090ff 2.5px;
+  transition: all 1s;
+  
 }
 
 .product-img {
@@ -250,6 +253,87 @@ img {
 .btn-dark:hover {
   background: #ededed;
 }
+/* Stile per la tendina del carrello */
+.cart-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  display: none;
+}
+
+.cart-overlay.active {
+  display: block;
+}
+
+.cart-sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 300px;
+  height: 100%;
+  background: #24262b;
+  z-index: 1001;
+  padding: 1rem;
+  transition: right 0.3s ease;
+}
+
+.cart-sidebar.active {
+  right: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #0777ff;
+  padding: 1rem 0;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.cart-item-details {
+  flex: 1;
+  margin-left: 1rem;
+  color: #fff;
+}
+
+.cart-item-details span {
+  display: block;
+}
+
+.btn-remove-item {
+  background: none;
+  border: none;
+  color: #ff4d4d;
+  cursor: pointer;
+}
+
+.btn-close-cart {
+  width: 100%;
+  padding: 0.5rem;
+  background: #0777ff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-close-cart i {
+  margin-right: 0.5rem;
+}
+
+
 
 /* Media Queries */
 @media screen and (max-width: 575.98px) {
@@ -273,9 +357,6 @@ img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-  }
-  .product-img {
-    display: none;
   }
   .product {
     margin: 1rem;
@@ -338,4 +419,12 @@ img {
   .product-col-left {
     height: 121.5vh;
   }
-}/*# sourceMappingURL=prodotti.css.map */
+}/*# sourceMappingURL=prodoti.css.map */
+@media screen and (min-width: 1200px) {
+  .product-items{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+  }
+
+}/*# sourceMappingURL=prodoti.css.map */

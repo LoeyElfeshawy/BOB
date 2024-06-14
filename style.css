@@ -135,7 +135,6 @@ a {
     }
   
   }
-}
 @media screen and (max-width: 600px) {
   .nav-links a:not(:first-child) {display: none;}
   .nav-links a.icon {
@@ -156,7 +155,6 @@ a {
     display: block;
     text-align: left;
   }
-}
 }
 
 

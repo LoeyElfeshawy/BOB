@@ -65,7 +65,7 @@ a.button {
 }
 a.button:hover {
   color: #fff;
-  background-color: #c87e4f;
+  background-color: #0090ff;
 }
 
 /* swiper button css */
@@ -98,7 +98,7 @@ a.button:hover {
 }
 .swiper-pagination-bullet-active {
   border: 2px solid #fff;
-  background-color: #c87e4f;
+  background-color: #0090ff;
 }
 
 @media screen and (max-width: 768px) {
