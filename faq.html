@@ -1,162 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ</title>
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/faqs/faq-2/assets/css/faq-2.css">
-    <script src="https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ</title>
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/faqs/faq-2/assets/css/faq-2.css">
+  <script src="https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
 </head>
+
 <body>
-    <nav class="nav">
-        <ul class="nav-links">
-          <i class="uil uil-bars navOpenBtn"></i>
-          <a href="./index.html" class="logo"><img src="/logo.png" height="100" width="100"></a>
-          <i class="uil uil-times navCloseBtn"></i>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="/prodotti/prodotti.html">Prodotti</a></li>
-          <li><a href="contatti.html">Contatti</a></li>
-        </ul>
-  
-        <ul class="nav-links">
-          <input type="text" style="background: none; color: #fff; max-width: 75%; border: 2px solid #0777ff; border-radius: 5px;padding: 10px 25px;box-shadow: 2px 2px 15px #0777ff inset;" placeholder="Cerca..." />
-          <a href="login/login.html"><i class="fa fa-user" style="color:#fff;"></i></a>
-          <a href="#"><i class="fa fa-shopping-cart" style="color: #fff;"></i></a>
-        </ul>
-      </nav>
-    <!-- FAQ 2 - Bootstrap Brain Component -->
-    <section class="bsb-faq-2 bg-dark py-3 py-md-5 py-xl-8 text-light">
-        <div class="container">
-        <div class="row gy-5 gy-lg-0">
-            <div class="col-12 col-lg-6">
-            <h2 class="h1 mb-3">How can we help you? Unlocking possibilities for your web hosting FAQs answered. </h2>
-            <p class="lead fs-4 text-secondary mb-4">We hope you have found an answer to your question. If you need any help, please search your query on our Support Center or contact us via email.</p>
-            <a href="#!" class="btn btn-lg bsb-btn-2xl btn-primary">All FAQ</a>
-            </div>
-            <div class="col-12 col-lg-6">
-            <div class="row justify-content-xl-end">
-                <div class="col-12 col-xl-11">
-                <div class="accordion accordion-flush" id="accordionExample">
-                    <div class="accordion-item mb-4 shadow-sm">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button bg-transparent fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        How Do I Change My Billing Information?
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                        <p>To change your billing information, please follow these steps:</p>
-                        <ul>
-                            <li>Go to our website and sign in to your account.</li>
-                            <li>Click on your profile picture in the top right corner of the page and select "Account Settings."</li>
-                            <li>Under the "Billing Information" section, click on "Edit."</li>
-                            <li>Make your changes and click on "Save."</li>
-                        </ul>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="accordion-item mb-4 shadow-sm">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed bg-transparent fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        How Does Payment System Work?
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
-                        <div class="accordion-body">
-                        A payment system is a way to transfer money from one person or organization to another. It is a complex process that involves many different parties, including banks, credit card companies, and merchants.
-                        </div>
-                    </div>
-                    </div>
-                    <div class="accordion-item mb-4 shadow-sm">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed bg-transparent fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Will taxes be included in my monthly invoice?
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
-                        <div class="accordion-body">
-                        Whether or not taxes are included in your monthly invoice depends on a number of factors, including your location, the type of services you are receiving, and the policies of the company providing you with those services.
-                        </div>
-                    </div>
-                    </div>
-                    <div class="accordion-item mb-4 shadow-sm">
-                    <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed bg-transparent fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        What currency will I be charged in?
-                        </button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour">
-                        <div class="accordion-body">
-                        The currency you are charged in when making a purchase will depend on a number of factors, including the merchant you are purchasing from, the country you are purchasing from, and the payment method you are using.
-                        </div>
-                    </div>
-                    </div>
-                    <div class="accordion-item shadow-sm">
-                    <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed bg-transparent fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        How Do I Cancel My Account?
-                        </button>
-                    </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive">
-                        <div class="accordion-body">
-                        <p>To cancel your account, please follow these steps:</p>
-                        <ul>
-                            <li>Go to our website and sign in to your account.</li>
-                            <li>Click on your profile picture in the top right corner of the page and select "Account Settings."</li>
-                            <li>Scroll to the bottom of the page and click on "Cancel Account."</li>
-                            <li>Enter your password and click on "Cancel Account."</li>
-                        </ul>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div>
+  <nav class="nav">
+    <ul class="nav-links">
+      <i class="uil uil-bars navOpenBtn"></i>
+      <a href="./index.html" class="logo"><img src="/logo.png" height="100" width="100"></a>
+      <i class="uil uil-times navCloseBtn"></i>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="/prodotti/prodotti.html">Prodotti</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul>
+
+    <ul class="nav-links">
+      <input type="text"
+        style="background: none; color: #fff; max-width: 75%; border: 2px solid #0777ff; border-radius: 5px;padding: 10px 25px;box-shadow: 2px 2px 15px #0777ff inset;"
+        placeholder="Cerca..." />
+      <a href="login/login.html"><i class="fa fa-user" style="color:#fff;"></i></a>
+      <a href="#"><i class="fa fa-shopping-cart" style="color: #fff;"></i></a>
+    </ul>
+  </nav>
+  <!-- FAQ 2 - Bootstrap Brain Component -->
+  <section class="bsb-faq-2 bg-dark py-3 py-md-5 py-xl-8 text-light">
+    <div class="container">
+      <div class="row gy-5 gy-lg-0">
+        <div class="col-12 col-lg-6">
+          <h2 class="h1 mb-3">How can we help you? Unlocking possibilities for your web hosting FAQs answered. </h2>
+          <p class="lead fs-4 text-secondary mb-4">We hope you have found an answer to your question. If you need any
+            help, please search your query on our Support Center or contact us via email.</p>
+          <a href="#!" class="btn btn-lg bsb-btn-2xl btn-primary">All FAQ</a>
         </div>
-        </div>
-    </section>
-    <footer class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="footer-col">
-              <h4>company</h4>
-              <ul>
-                <li><a href="aboutus.html">about us</a></li>
-                <li><a href="#">privacy policy</a></li>
-              </ul>
-            </div>
-            <div class="footer-col">
-              <h4>get help</h4>
-              <ul>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="#">returns</a></li>
-                <li><a href="#">order status</a></li>
-                <li><a href="#">payment options</a></li>
-              </ul>
-            </div>
-            <div class="footer-col">
-              <h4>online shop</h4>
-              <ul>
-                <li><a href="#">felpe</a></li>
-                <li><a href="#">pantaloni</a></li>
-                <li><a href="#">t-shirt</a></li>
-              </ul>
-            </div>
-            <div class="footer-col">
-              <h4>follow us</h4>
-              <div class="social-links">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+        <div class="col-12 col-lg-6">
+          <div class="row justify-content-xl-end">
+            <div class="col-12 col-xl-11">
+              <div class="accordion accordion-flush" id="accordionExample">
+                <div class="accordion-item mb-4 shadow-sm">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button bg-transparent fw-bold" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      How Do I Change My Billing Information?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>To change your billing information, please follow these steps:</p>
+                      <ul>
+                        <li>Go to our website and sign in to your account.</li>
+                        <li>Click on your profile picture in the top right corner of the page and select "Account
+                          Settings."</li>
+                        <li>Under the "Billing Information" section, click on "Edit."</li>
+                        <li>Make your changes and click on "Save."</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item mb-4 shadow-sm">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed bg-transparent fw-bold" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                      aria-controls="collapseTwo">
+                      How Does Payment System Work?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                    <div class="accordion-body">
+                      A payment system is a way to transfer money from one person or organization to another. It is a
+                      complex process that involves many different parties, including banks, credit card companies, and
+                      merchants.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item mb-4 shadow-sm">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed bg-transparent fw-bold" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                      aria-controls="collapseThree">
+                      Will taxes be included in my monthly invoice?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                    <div class="accordion-body">
+                      Whether or not taxes are included in your monthly invoice depends on a number of factors,
+                      including your location, the type of services you are receiving, and the policies of the company
+                      providing you with those services.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item mb-4 shadow-sm">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed bg-transparent fw-bold" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                      aria-controls="collapseFour">
+                      What currency will I be charged in?
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour">
+                    <div class="accordion-body">
+                      The currency you are charged in when making a purchase will depend on a number of factors,
+                      including the merchant you are purchasing from, the country you are purchasing from, and the
+                      payment method you are using.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item shadow-sm">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed bg-transparent fw-bold" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                      aria-controls="collapseFive">
+                      How Do I Cancel My Account?
+                    </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive">
+                    <div class="accordion-body">
+                      <p>To cancel your account, please follow these steps:</p>
+                      <ul>
+                        <li>Go to our website and sign in to your account.</li>
+                        <li>Click on your profile picture in the top right corner of the page and select "Account
+                          Settings."</li>
+                        <li>Scroll to the bottom of the page and click on "Cancel Account."</li>
+                        <li>Enter your password and click on "Cancel Account."</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-     </footer>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="aboutus.html">about us</a></li>
+            <li><a href="#">privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">felpe</a></li>
+            <li><a href="#">pantaloni</a></li>
+            <li><a href="#">t-shirt</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
